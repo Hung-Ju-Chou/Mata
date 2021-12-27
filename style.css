@@ -1,0 +1,117 @@
+body {
+    background-color: #dcdcdc;
+    font-family: sans-serif, Microsoft JhengHei;
+}
+
+.title {
+    background-color: #b0c4de;
+    color: #696969;
+    border: 4px #4682b4 solid;
+    font-size: 3.5rem;
+    height: 4rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    margin: 6px;
+    padding: 12px;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.sub-title {
+    display: inline-block;
+    background-color: #808080;
+    color: #ffffff;
+    border: 3px #4682b4 solid;
+    border-radius: 0.3rem;
+    margin: 6px;
+    padding: 6px;
+    padding-left: 12px;
+    text-align: left;
+}
+
+#container {
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.text-1 {
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 0 16px;
+}
+
+.text-2 {
+    border: 2px rgb(9, 8, 20) solid;
+    background-color: #add8e6;
+    color: #696969;
+    padding: 5px;
+    font-family: 微軟正黑體;
+}
+
+.text-3 {
+    text-align: left;
+}
+
+.slogan {
+    font-size: 20px;
+    color: rgb(243, 14, 14);
+    font-style: italic;
+    font-weight: bold;
+    background-color: #ffc0cb;
+    padding: 0 6px;
+}
+
+#good-link a {
+    font-size: 18px;
+    color: #696969;
+    
+}
+
+#picture img {
+    border-radius: 6px;
+}
+
+table {
+    width: 90%;
+    margin: 12px auto;
+    height: 200px;
+}
+
+table th {
+    background-color: #265da5;
+    color: white;
+}
+
+
+td:first-child {
+    background-color: #b0c4de;
+    color: #fff;
+}
+
+td {
+    background-color: #fff0f5;
+}
+
+input,
+button,
+textarea {
+    font-size: 1rem;
+    margin: 6px;
+}
+
+form {
+    background-color: rgb(235, 159, 101);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+button {
+    width: 240px;
+    background-color: rgb(204, 95, 75);
+    padding: 6px 0;
+    border-radius: 6px;
+    color: white;
+    border: 2;
+} 
