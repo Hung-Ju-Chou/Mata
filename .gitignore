@@ -1,0 +1,32 @@
+git --version
+git config --global user.name jerry
+git config --global user.email jerry@gmail.com
+
+git config --list
+
+git init
+
+git add (U->A)
+
+git cat-file sha-1
+ -p 內容
+ -t 型態
+ -s 大小
+
+git ls-files
+git ls-files -s 
+
+git restore --staged file-name
+
+git commit -m "first commit"
+
+(git add + git commit -m)
+git commit -am "first commit"
+
+git commit --amend
+
+git diff
+
+倉庫區刪除需要再commit
+
+git rm --cached 恢復到工作區
